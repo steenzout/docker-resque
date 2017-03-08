@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-New%20BSD-blue.svg?style=flat)](https://raw.githubusercontent.com/steenzout/docker-resque-web/master/LICENSE)
 
-Resources to build a [Resque job][resque-web] container.
+Resources to build a [Resque][resque-web] container.
 
 
 ## Dependencies
