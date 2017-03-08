@@ -18,14 +18,16 @@ Start:
 $ docker run \
     --rm \
     -td \
-    steenzout/resque-web
+    steenzout/resque
 ```
 
 
 ## Links
 
 - [Resque][resque-web]
+- [dcestari/resque-standalone-sample][dcestari/resque-standalone-sample]
 
 
 [alpine]:	https://alpinelinux.org/	"Alpine Linux"
+[dcestari/resque-standalone-sample]:	https://github.com/dcestari/resque-standalone-sample	"dcestari/resque-standalone-sample"
 [resque-web]:	https://github.com/resque/resque	"resque"
