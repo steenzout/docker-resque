@@ -17,7 +17,6 @@ ADD Gemfile /resque/
 ADD Rakefile /resque/
 
 RUN set -x \
-    #&& bundle config build.nokogiri --use-system-libraries
     && bundle install
 
 USER resque
