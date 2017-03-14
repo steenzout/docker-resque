@@ -9,7 +9,7 @@ ENV QUEUE *
 ENV TERM_CHILD 1
 
 RUN set -x \
-    && adduser -D -S -s /bin/false -h /resque resque
+    && adduser -D -S -s /bin/false -h /resque resque \
     && mkdir -p /resque/workers
 
 WORKDIR /resque
