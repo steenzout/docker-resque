@@ -10,6 +10,7 @@ ENV TERM_CHILD 1
 
 RUN set -x \
     && adduser -D -S -s /bin/false -h /resque resque
+    && mkdir -p /resque/workers
 
 WORKDIR /resque
 
@@ -22,5 +23,7 @@ RUN set -x \
 
 USER resque
 
+VOLUME /home/resque/workers
+
 ENTRYPOINT ["bundle", "exec", "rake"]
-CMD ["resque"]
+CMD ["resque:work"]
