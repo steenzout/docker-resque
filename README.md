@@ -24,10 +24,10 @@ $ docker run \
 
 ## Links
 
-- [Resque][resque-web]
+- [Resque][resque]
 - [dcestari/resque-standalone-sample][dcestari/resque-standalone-sample]
 
 
 [alpine]:	https://alpinelinux.org/	"Alpine Linux"
 [dcestari/resque-standalone-sample]:	https://github.com/dcestari/resque-standalone-sample	"dcestari/resque-standalone-sample"
-[resque-web]:	https://github.com/resque/resque	"resque"
+[resque]:	https://github.com/resque/resque	"resque"
